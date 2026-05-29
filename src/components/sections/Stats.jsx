@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import { stats } from "../../data/stats";
+import { useFadeIn } from "../../hooks/useFadeIn";
 
 function useCountUp(end, duration = 2000, startCounting) {
   const [count, setCount] = useState(0);
