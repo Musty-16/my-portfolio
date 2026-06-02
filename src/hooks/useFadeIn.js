@@ -1,4 +1,3 @@
-// src/hooks/useFadeIn.js
 import { useEffect, useRef, useState } from "react";
 
 export function useFadeIn(threshold = 0.1) {

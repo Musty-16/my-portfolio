@@ -1,12 +1,12 @@
 import Navbar from "./components/layout/Navbar";
 import FadeInSection from "./components/ui/FadeInSection";
 import Hero from "./components/sections/Hero";
-import Projects from "./components/sections/Projects";    // now with filtering
+import Projects from "./components/sections/Projects";   
 import Skills from "./components/sections/Skills";
-import Stats from "./components/sections/Stats";           // ✨ new
-import Currently from "./components/sections/Currently";   // ✨ new
+import Stats from "./components/sections/Stats";           
+import Currently from "./components/sections/Currently";   
 import Contact from "./components/sections/Contact";
-import ScrollToTop from "./components/ui/ScrollToTop";     // ✨ new
+import ScrollToTop from "./components/ui/ScrollToTop";     
 
 export default function App() {
   return (
