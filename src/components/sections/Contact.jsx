@@ -12,7 +12,7 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("sending");
-    const formspreeEndpoint = "https://formspree.io/f/YOUR_FORM_ID";
+    const formspreeEndpoint = "https://formspree.io/f/mlgkbnap";
     try {
       const response = await fetch(formspreeEndpoint, {
         method: "POST",
