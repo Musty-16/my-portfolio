@@ -5,7 +5,7 @@ export const projects = [
     description: "Developed a travel information platform that enables users to explore destinations, track live flights,access travel reviews, and learn about diverse cultures and customs.",
     tech: ["React", "JavaScript","HTML", "CSS", "JSON"],
     liveUrl: "https://travelsmart-vertex-coders-techwiz5.netlify.app/",
-    image: "assets/TravelSmart.png",
+    image: "public/TravelSmart.png",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const projects = [
     tech: [ "React.js", "Vite", "React Router", "CSS", "Git"],
     liveUrl: "https://campusconnect-stacksmith-techwiz6.netlify.app/",
     githubUrl: "https://github.com/Bezliab/campusconnect.git",
-    image: "assets/CampusConnect.png",
+    image: "public/CampusConnect.png",
   },
   {
     id: 3,
@@ -32,6 +32,7 @@ export const projects = [
     tech: ["FLutter", "Dart"],
     liveUrl: "https://yourname.vercel.app",
     githubUrl: "https://github.com/yourusername/portfolio",
-    image: null
+    image: null,
+    type: "mobile"
   }
 ];
